@@ -52,7 +52,7 @@ quarkus.oidc.authentication.redirect-path=/
 
 **NOTE:** The value of `{yourOktaDomain}` should be something like `dev-123456.okta.com`. Make sure you don't include `-admin` in the value!
 
-After modifying this file, restart your app and it'll be protected by Okta! See this repo's [blog post](http://developer.okta.com/blog/2020/04/08/kafka-streams) to learn how to connect this app with a running Kafka server.
+After modifying this file your app will be protected by Okta! See this repo's [blog post](http://developer.okta.com/blog/2020/04/08/kafka-streams) to learn how to connect this app with a running Kafka server.
 
 ## Links
 
